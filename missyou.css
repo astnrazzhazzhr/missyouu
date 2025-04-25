@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #fceabb, #f8b500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  animation: fadeIn 1.5s ease;
+}
+
+h1 {
+  color: #ff4081;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.8;
+}
+
+.footer {
+  display: block;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
